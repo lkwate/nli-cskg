@@ -18,7 +18,7 @@ def process_item(item: Dict[str, Any], kw_model: KeyBERT):
     keywords = word_extraction(kw_model, premise) | word_extraction(
         kw_model, hypothesis
     )
-    item["keywords"] = keywords
+    item["keywords"] = list(keywords)
     return item
 
 
