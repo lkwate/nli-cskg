@@ -1,0 +1,6 @@
+torch=1.9.0
+pytorch-lightning=1.5.9
+loguru
+keybert
+black
+datasets
